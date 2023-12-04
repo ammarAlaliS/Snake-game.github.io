@@ -10,9 +10,29 @@ body{
 }
 
 .canvas{
-    background-image: url(./media/pasto.jpg);
+    background-image: url(https://t3.ftcdn.net/jpg/01/27/49/02/240_F_127490276_uSeuCMn3w9yx0wy2HADHK2n541IwB0iw.jpg);
     background-repeat: no-repeat;
-    background-size:600px 600px;
-    object-fit: ;
+    background-size:cover;
+    border-radius: 5px;
+
+    
    
+}
+.mainContent{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-bottom: 1em;
+}
+.div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 0, 0, 0.151);
+    border-radius: 5px;
+    
 }
